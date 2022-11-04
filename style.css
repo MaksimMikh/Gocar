@@ -44,6 +44,7 @@ body{
   font-size:2.7em;
   color:rgb(10, 92, 163)
   
+  
 }
 .pande{
   padding-top: 1.8em;
@@ -67,10 +68,10 @@ body{
   margin: 0;
   text-align: center;
   font-weight: bold;
-  color:rgb(110, 93, 73);
+  color:rgb(221, 218, 214);
 }
 .social{
-  padding-top:1em;
+  padding-top:0;
   font-weight: bold;
 }
 .fa{
@@ -188,9 +189,10 @@ a:hover{
 }
 #list-items{
   display:flex;
-  flex-wrap:wrap;
+  flex-wrap:wrap-reverse;
   justify-content:space-evenly;
   background-color: #5e7f95;
+
   
   
   
