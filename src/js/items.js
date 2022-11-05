@@ -2,7 +2,7 @@
 const itemsController = new ItemsController();
 
 function addItemCard(item){
-    const itemHTML = '<div class="card" style="width:49.5%;">\n' +
+    const itemHTML = '<div class="card min-vh-25" style="width:49.5%;">\n' +
         '    <img id="img" src="'+item.imageUrl +'" width="auto" height="75%"  alt="product image">\n' +
         '    <div class="card-body">\n' +
         '        <h4 class="card-title">'+item.name+'</h4>\n' +
